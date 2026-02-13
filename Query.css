@@ -1,0 +1,105 @@
+@media (min-width:31.5rem){
+    .service-container,.work-container{
+         justify-items: center;
+    }
+    
+    .service-card-link{
+       text-align: center;
+    }
+}
+
+
+@media(min-width:48rem){
+     html{
+        font-size:68.75%;
+     }
+     
+     .hamburger-btn{
+        display: none;
+     }
+     
+     .nav-links-container{
+        display:flex;
+        flex-direction: row;
+        box-shadow: none;
+        height:auto;
+        position:static;
+        padding:0;
+        width:auto;
+        background-color:transparent;
+     }
+     
+     .nav-link-groups{
+         display:flex;
+         align-items: center;
+         gap:var(--space-4)
+     }
+     
+     .nav-btn-container{
+         flex-direction: row;
+         border-top:0;
+         padding:0;
+         margin:0 auto;
+         width:fit-content;
+         margin-left: 0 auto;
+     }
+     
+     .hero-container,.about-container{
+        flex-direction: row;
+     }
+     
+     .hero-btn-container,.cta-btn-container{
+         flex-direction: row;
+         width:fit-content;
+     }
+     
+     .resume-section .btn-primary{
+           width:fit-content;
+     }
+     
+     
+     .service-container,.work-container{
+         grid-template-columns: repeat(2,1fr);
+     }
+     
+     
+     .footer-container{
+        justify-content: space-between;
+        flex-direction: row;
+     }
+    
+}
+
+@media (min-width:64rem){
+    html{
+       font-size:71.875%;
+    }
+    
+    .hero-container{
+        min-height:50vh;
+    }
+    
+     
+     .service-container,.work-container{
+         grid-template-columns: repeat(3,1fr);
+     }
+     
+}
+
+
+@media(min-width:80rem){
+     html{
+        font-size:75%;
+     }
+    hero-container{
+      min-height: 50vh;
+    }
+    
+}
+
+@media(min-width:90rem){
+    html{
+        font-size:78.125%;
+    }
+    
+}
