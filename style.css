@@ -239,7 +239,6 @@
   /*COMPONENTS*/
   .btn:hover{
    text-decoration:none;
-    transform: scale(1.05);
 }
 .btn{
   font-size: var(--text-2xl);
