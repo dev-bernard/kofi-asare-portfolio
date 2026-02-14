@@ -69,7 +69,7 @@
     }
 
     .hero-heading{
-         --special-heading:3rem;
+         --special-heading:6rem;
          font-size: var(--special-heading);
           margin-bottom: var(--space-24);
     }
