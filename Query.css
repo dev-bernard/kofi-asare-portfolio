@@ -36,7 +36,7 @@
      .nav-link-groups{
          display:flex;
          align-items: center;
-         gap:var(--space-4)
+         gap:var(--space-4);
          margin:0 auto;
      }
      
