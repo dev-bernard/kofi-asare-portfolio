@@ -70,7 +70,7 @@
     
 }
 
-@media (min-width:64rem){
+@media (min-width:64rem),(min-width:80rem),(min-width:80rem){
     html{
        font-size:71.875%;
     }
@@ -91,9 +91,7 @@
      html{
         font-size:75%;
      }
-    hero-container{
-      min-height: 50vh;
-    }
+
     
 }
 
