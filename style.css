@@ -725,7 +725,9 @@ a.chart-icon{
    flex-direction: column;
    align-items: center;
    gap:var(--space-8);
-   margin-top:var(--space-16);
+   margin:var(--space-16) auto;
+   max-width:var(--container-width-1200);
+   width:90;
 }
 
 .social-link-container{
