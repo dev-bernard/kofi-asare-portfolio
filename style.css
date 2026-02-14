@@ -727,7 +727,7 @@ a.chart-icon{
    gap:var(--space-8);
    margin:var(--space-16) auto;
    max-width:var(--container-width-1200);
-   width:90;
+   width:90%;
 }
 
 .social-link-container{
