@@ -4,7 +4,7 @@
 --text-base: 1rem;
 --text-lg: 1.2rem;
 --text-xl: 1.44rem;
---text-2xl: 1.728rem,
+--text-2xl: 1.728rem;
 --text-3xl: 2.074rem;
 --text-4xl: 2.488rem;
 --text-5xl: 2.986rem;
@@ -82,7 +82,7 @@ font-size: 62.5%;
 scroll-behavior: smooth;
 }
 
-{
+*{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -191,7 +191,7 @@ a.card-link{
 text-decoration: underline solid var(--primary-600) 2px;
 }
 
-/Floating-icon/
+/*Floating-icon*/
 a.chart-icon{
 position: fixed;
 bottom: 20px;
@@ -310,7 +310,7 @@ padding-top: 1rem;
 border-top: 1px solid #e5e7eb;
 }
 
-/HERO__SECTION/
+/*HERO__SECTION*/
 
 .hero-section{
 padding-top: 60px;
@@ -321,6 +321,7 @@ display: flex;
 flex-direction: column;
 justify-content:center;
 align-items:center;
+ tex-align:center;
 gap:var(--space-32);
 max-width:var(--container-width);
 margin:0 auto;
@@ -369,7 +370,7 @@ gap:var(--space-16);
 }
 
 .hero-section .btn-primary-outline{
-/background-color: var(--primary-50);/
+/*background-color: var(--primary-50);*/
 }
 
 .hero-img-container{
@@ -435,7 +436,7 @@ font-size: var(--text-2xl);
 font-size: var(--text-xl);
 }
 
-/RESUME__SECTION/
+/*RESUME__SECTION*/
 
 .resume-section{
 margin-bottom:var(--space-64);
@@ -518,7 +519,7 @@ text-align: center;
 font-size: var(--text-xl);
 }
 
-/CTA__SECTION/
+/*CTA__SECTION*/
 .cta-section{
 margin-bottom: var(--space-32);
 }
@@ -579,4 +580,4 @@ color: var(--primary-500);
 display: flex;
 justify-content: center;
 align-items: center;
-} See
+} 
