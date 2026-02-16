@@ -305,6 +305,19 @@ a.chart-icon{
    padding-top: 60px;
 }
 
+.hero-container{
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   gap:var(--space-32);
+   max-width:var(--container-width-1200);
+   margin:0 auto;
+   width:90%;
+   overflow: visible;
+   min-height:100vh;
+}
+
+
 .hero-heading{
    margin-bottom: var(--space-8);
 }
