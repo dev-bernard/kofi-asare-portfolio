@@ -396,7 +396,7 @@ a.brand-logo {
   
 
 /* ===== ABOUT SECTION ===== */
-about-section{
+.about-section{
    margin-bottom: var(--space-32);
 }
 .about-container {
@@ -471,7 +471,7 @@ about-section{
 
 
 /* ===== SERVICE SECTION ===== */
-service-section{
+.service-section{
    margin-bottom: var(--space-64);
 }
 
@@ -568,6 +568,7 @@ service-section{
   max-width: var(--container-width);
   margin: var(--space-16) auto;
   width: 90%;
+  border-top: 2px solid #fff;
 }
 
 .footer-description{ 
