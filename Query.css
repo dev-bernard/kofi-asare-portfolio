@@ -37,7 +37,7 @@
 }
 
 /* Medium screens / tablets */
-@media (min-width:48rem) {
+@media (min-width:48 rem) {
 
   /* Font scaling */
   html {
@@ -107,7 +107,6 @@
     max-width: 500px;
     max-height: 500px;
     width: 100%;
-    align-self: flex-start;
   }
 
   .footer-container {
@@ -117,7 +116,7 @@
 }
 
 /* Large screens / desktops */
-@media (min-width:64rem) {
+@media (min-width:64 rem) {
 
   html {
     font-size: 71.875%;
@@ -144,13 +143,13 @@
 }
 
 /* Extra large screens */
-@media (min-width:80rem) {
+@media (min-width:80 rem) {
   html {
     font-size: 75%;
   }
 }
 
-@media (min-width:90rem) {
+@media (min-width:90 rem) {
   html {
     font-size: 78.125%;
   }
