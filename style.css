@@ -131,7 +131,7 @@ a:hover,a:active { text-decoration: underline solid var(--primary-300); }
 
 .btn:hover { text-decoration: none; }
 
-.btn-primary {
+a.btn-primary {
   color: var(--white);
   background-color: var(--primary-600);
   border: var(--border-sm) solid var(--primary-600);
@@ -142,7 +142,7 @@ a:hover,a:active { text-decoration: underline solid var(--primary-300); }
   border-color: var(--primary-700);
 }
 
-.btn-primary-outline {
+a.btn-primary-outline {
   color: var(--primary-500);
   background-color: var(--white);
   border: var(--border-sm) solid var(--primary-500);
@@ -232,7 +232,7 @@ a.chart-icon{
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.brand-logo {
+a.brand-logo {
   font-family: var(--font-merriweather);
   font-weight: var(--font-weight-bold);
   font-size: var(--text-3xl);
