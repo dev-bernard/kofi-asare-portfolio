@@ -496,6 +496,10 @@ a.brand-logo {
 }
 
 /* ===== WORK / PORTFOLIO SECTION ===== */
+.work-section{
+    margin-bottom: var(--space-64);
+}
+
 .work-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
