@@ -45,17 +45,13 @@
 
 
 
-@media (min-width:35rem) and (max-width:47.998rem){
+@media (min-width:35rem) and (max-width:63.998rem){
         .service-container,.work-container{
              grid-template-columns: repeat(2,1fr);
         }
 }
 
-@media(min-width:48rem) and (max-width:63.998rem){
-        .service-container,.work-container{
-             grid-template-columns: repeat(2,1fr);
-        }
-}
+
 
 @media(min-width:48rem){
      html{
