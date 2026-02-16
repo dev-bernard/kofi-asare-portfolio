@@ -154,7 +154,7 @@ a:hover,a:active { text-decoration: underline solid var(--primary-300); }
   border-color: var(--primary-700);
 }
 
-card{
+.card{
    padding: var(--space-8) var(--space-16);
    border: var(--border-xl) solid var(--white);
    border-radius: var(--radius-md);
@@ -305,7 +305,7 @@ a.chart-icon{
    padding-top: 60px;
 }
 
-hero-heading{
+.hero-heading{
    margin-bottom: var(--space-8);
 }
 
