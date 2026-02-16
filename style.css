@@ -396,6 +396,9 @@ a.brand-logo {
   
 
 /* ===== ABOUT SECTION ===== */
+about-section{
+   margin-bottom: var(--space-32);
+}
 .about-container {
   display: flex;
   flex-direction: column;
@@ -468,6 +471,10 @@ a.brand-logo {
 
 
 /* ===== SERVICE SECTION ===== */
+service-section{
+   margin-bottom: var(--space-64);
+}
+
 .service-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
