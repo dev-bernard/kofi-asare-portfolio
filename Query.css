@@ -29,7 +29,7 @@
      }
      
 
-     .nav-links-group{
+     .nav-link-groups{
        display: flex;
        flex-direction:row;
        gap: var(--space-12);
