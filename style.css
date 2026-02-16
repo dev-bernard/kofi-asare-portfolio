@@ -560,15 +560,18 @@ a.brand-logo {
      
 
 /* ===== FOOTER ===== */
+.footer-section:{
+     border-top:2px solid fff;
+     margin-top:var(--space-32);
+}
 .footer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--space-8);
   max-width: var(--container-width);
-  margin: var(--space-16) auto;
+  margin: 0 auto;
   width: 90%;
-  border-top: 2px solid #fff;
 }
 
 .footer-description{ 
