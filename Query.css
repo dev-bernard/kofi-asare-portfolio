@@ -4,7 +4,7 @@
 @media (min-width:35 rem) {
 
   /* Hero & About images */
-  .hero-img-container {
+  /*.hero-img-container {
     max-width: 450px;
     max-height: 450px;
   }
@@ -13,8 +13,10 @@
     max-width: 500px;
     max-height: 500px;
   }
-
+*/
+  
   /* Hero text */
+  /*
   .hero-heading {
     font-size: 3rem;
     margin-bottom: var(--space-24);
@@ -23,10 +25,10 @@
   .hero-paragraph {
     font-size: 2.2rem;
     margin-bottom: var(--space-24);
-  }
+  } */
 
   /* Center grid items for smaller screens */
-  .service-container,
+ /* .service-container,
   .work-container {
     justify-items: center;
   }
@@ -34,6 +36,8 @@
   .service-card-link {
     text-align: center;
   }
+*/
+  
 }
 
 /* Medium screens / tablets */
