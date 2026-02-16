@@ -1,150 +1,157 @@
-@media (min-width:35rem){
+/* ===== MEDIA QUERIES CLEANED ===== */
 
+/* Small screens / small tablets */
+@media (min-width:35rem) {
+
+  /* Hero & About images */
+  .hero-img-container {
+    max-width: 450px;
+    max-height: 450px;
+  }
+
+  .about-img-container {
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  /* Hero text */
+  .hero-heading {
+    font-size: 3rem;
+    margin-bottom: var(--space-24);
+  }
+
+  .hero-paragraph {
+    font-size: 2.2rem;
+    margin-bottom: var(--space-24);
+  }
+
+  /* Center grid items for smaller screens */
   .service-container,
-  .work-container{
-    grid-template-columns: repeat(2,1fr);
-    justify-items:center;
+  .work-container {
+    justify-items: center;
   }
 
-  .service-card-link{
-    text-align:center;
-  }
-
-  .hero-heading{
-    font-size:3rem;
-    margin-bottom: var(--space-24);
-  }
-
-  .hero-paragraph{
-    font-size:2.2rem;
-    margin-bottom: var(--space-24);
-  }
-
-  .hero-img-container{
-    max-width:450px;
-    max-height:450px;
-  }
-
-  .about-img-container{
-    max-width:500px;
-    max-height:500px;
+  .service-card-link {
+    text-align: center;
   }
 }
 
-@media (min-width:48rem){
+/* Medium screens / tablets */
+@media (min-width:48rem) {
 
-  html{
-    font-size:68%;
+  /* Font scaling */
+  html {
+    font-size: 68%;
   }
 
-  .hamburger-btn{
-    display:none;
+  /* Navbar */
+  .hamburger-btn {
+    display: none;
   }
 
-  .brand-logo{
-    white-space:nowrap;
+  .brand-logo {
+    white-space: nowrap;
   }
 
-  .nav-links-container{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    box-shadow:none;
-    height:auto;
-    position:static;
-    padding:0;
-    background-color:transparent;
+  .nav-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: none;
+    height: auto;
+    position: static;
+    padding: 0;
+    background-color: transparent;
   }
 
-  .nav-links-group{
-    display:flex;
-    gap:var(--space-12);
-    margin:0 auto;
+  .nav-links-group {
+    display: flex;
+    gap: var(--space-12);
+    margin: 0 auto;
   }
 
-  .nav-btn-container{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    gap:var(--space-12);
-    flex-shrink:0;
-    margin:0;
-    padding:0;
-    width:fit-content;
-    border-top:0;
+  .nav-btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-12);
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    border-top: 0;
   }
 
+  /* Hero & CTA buttons row */
   .hero-btn-container,
-  .cta-btn-container{
-    flex-direction:row;
-    width:fit-content;
+  .cta-btn-container {
+    flex-direction: row;
+    width: fit-content;
   }
 
-  .hero-container{
-    margin-top:32px;
-    min-height:100vh;
-    align-items:center;
-    justify-content:center;
+  /* Hero container adjustments */
+  .hero-container {
+    margin-top: 32px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
   }
 
+  /* Max width for paragraphs */
   .hero-paragraph,
-  .resume-paragraph{
-    max-width:70ch;
+  .resume-paragraph {
+    max-width: 70ch;
   }
 
-  .hero-img-container{
-    max-width:500px;
-    max-height:500px;
-    width:100%;
-    align-self:flex-start;
+  .hero-img-container {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    align-self: flex-start;
   }
 
-  .footer-container{
-    justify-content:space-between;
-    flex-direction:row;
+  .footer-container {
+    justify-content: space-between;
+    flex-direction: row;
   }
 }
 
+/* Large screens / desktops */
+@media (min-width:64rem) {
 
-@media (min-width:64rem){
-
-  html{
-    font-size:71.875%;
+  html {
+    font-size: 71.875%;
   }
 
-  .hero-container{
-    min-height:90vh;
+  .hero-container {
+    min-height: 90vh;
   }
 
   .hero-container,
-  .about-container{
-    flex-direction:row;
+  .about-container {
+    flex-direction: row;
   }
 
-  .service-container,
-  .work-container{
-    grid-template-columns: repeat(3,1fr);
+  .hero-img-container {
+    align-self: center;
   }
 
-  .hero-img-container{
-    align-self:center;
+  .about-img-container {
+    max-width: 500px;
   }
 
-  .about-img-container{
-    max-width:500px;
+  /* Grid columns can now be handled by auto-fit/minmax, so no need to repeat columns */
+}
+
+/* Extra large screens */
+@media (min-width:80rem) {
+  html {
+    font-size: 75%;
   }
 }
 
-
-@media (min-width:80rem){
-  html{
-    font-size:75%;
+@media (min-width:90rem) {
+  html {
+    font-size: 78.125%;
   }
-}
-
-
-@media (min-width:90rem){
-  html{
-    font-size:78.125%;
-  }
-         }
+      }
