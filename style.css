@@ -298,6 +298,18 @@ a.brand-logo {
   text-align: center;
 }
 
+/* Buttons in Mobile Menu */
+.nav-btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+  }
+
+
 
 /*HERO__SECTION*/
 
