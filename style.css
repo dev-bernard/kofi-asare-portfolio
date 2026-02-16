@@ -2,9 +2,9 @@
   /* TYPOGRAPHY */
   --text-sm: 0.833rem;
   --text-base: 1rem;
-  --text-lg: 1.2rem
+  --text-lg: 1.2rem;
   --text-xl: 1.44rem;
-  --text-2xl: 1.728rem, 
+  --text-2xl: 1.728rem;
   --text-3xl: 2.074rem;
   --text-4xl: 2.488rem;
   --text-5xl: 2.986rem;
@@ -560,7 +560,7 @@ a.brand-logo {
      
 
 /* ===== FOOTER ===== */
-.footer-section:{
+.footer-section{
      border-top:2px solid fff;
      margin-top:var(--space-32);
 }
