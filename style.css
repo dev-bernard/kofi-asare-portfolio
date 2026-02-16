@@ -342,6 +342,35 @@ hero-heading{
   font-size: var(--text-xl); 
 }
 
+/*RESUME__SECTION*/
+
+.resume-section{
+   margin-bottom:var(--space-64);
+}
+.resume-container{
+   max-width: var(--container-width-1200);
+   width: 90%;
+   margin:0 auto;
+   display:flex;
+   flex-direction: column;
+   
+}
+
+.resume-heading {
+  margin-top:var(--space-12);
+   margin-bottom: var(--space-12);
+   font-size:var(--text-3xl);
+}
+
+.resume-paragraph{
+   margin-bottom:var(--space-12);
+   font-size:var(--text-xl);
+}
+.resume-section .btn-primary{
+   width:100%;
+}
+
+
 
 
 /* ===== SERVICE SECTION ===== */
@@ -390,6 +419,40 @@ hero-heading{
 .portfolio-paragraph { 
   font-size: var(--text-xl);
 }
+
+/*CTA__SECTION*/
+.cta-section{
+  margin-bottom: var(--space-32);
+}
+.cta-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:var(--space-16);
+   max-width: var(--container-width-1200);
+   margin: 0 auto;
+   width:90%;
+}
+
+
+.cta-btn-container{
+   display:flex;
+   gap:var(--space-16);
+   flex-direction:column;
+   width:100%;
+}
+
+.cta-paragraph{
+    font-size:var(--text-3xl);
+    text-align:center;
+}
+
+.cta-heading{
+    font-size:var(--text-5xl);
+}
+
+     
 
 /* ===== FOOTER ===== */
 .footer-container {
