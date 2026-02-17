@@ -320,7 +320,6 @@ border-top: 1px solid #e5e7eb;
 
 .hero-section{
 padding-top: 60px;
-margin-bottom:var(--space-48);
 }
 
 .hero-container{
@@ -391,14 +390,14 @@ gap:var(--space-16);
 }
 
 .hero-img-container{
-max-width:30rem;
+max-width:35rem;
 width:100%;
 display:flex;
 justify-content:center;
 align-items: center;
 aspect-ratio: 1;
 overflow:hidden;
-max-height:30rem;
+max-height:35rem;
 border-radius:50%;
 }
 
