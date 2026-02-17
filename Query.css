@@ -23,7 +23,7 @@
      }
 
      .service-container, .work-container{
-            justify-items:center;
+            grid-template-column: repeat(2,1fr);
      }
 
 }
@@ -142,9 +142,9 @@
            min-height: 90vh;
      }
 
-    /* .service-container,.work-container{
+     .service-container,.work-container{
          grid-template-columns: repeat(3,1fr);
-     } */
+     } 
 
 
      .hero-container,.about-container{
