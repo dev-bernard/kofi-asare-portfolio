@@ -11,17 +11,6 @@
 
 
 
-     .hero-heading{
-          font-size:3rem;
-          margin-bottom:var(space-24);
-     }
-
-
-     .hero-paragraph{
-          font-size:2.2rem;
-          margin-bottom:var(--space-24);
-     }
-
      .service-container, .work-container{
             grid-template-columns: repeat(2,1fr);
      }
@@ -31,9 +20,7 @@
 
 
 @media(min-width:48rem){
-     html{
-        font-size:68%;
-     }
+
      
      .hamburger-btn{
         display: none;
@@ -134,9 +121,7 @@
 }
 
 @media (min-width:64rem){
-    html{
-       font-size:71.875%;
-    }
+
     
      .hero-container{
            min-height: 90vh;
@@ -163,23 +148,4 @@
      }
      
       
-}
-
-
-@media(min-width:80rem){
-     html{
-        font-size:75%;
-     }
-     
-     
-    
-     
-}
-
-@media(min-width:90rem){
-    html{
-        font-size:78.125%;
-    }
-    
-   
 }
