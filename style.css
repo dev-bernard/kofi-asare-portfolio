@@ -552,7 +552,7 @@ font-size:var(--text-5xl);
 
 /* ===== FOOTER ===== */
 .footer-section{
-border-top:2px solid #222;
+border-top:2px solid #e5e7eb;
 margin-top:var(--space-32);
 }
 .footer-container {
