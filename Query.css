@@ -1,7 +1,7 @@
 @media(min-width:35rem){
      .hero-img-container{
           max-width: 450px;
-          max-height:450px
+          max-height:450px;
      }
 
      .about-img-container{
