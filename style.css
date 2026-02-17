@@ -329,7 +329,7 @@ flex-wrap:wrap;
 /*justify-content:center;
 align-items:center; */
  tex-align:center;
-gap:var(--space-32);
+gap:var(--space-8);
 max-width:var(--container-width);
 margin:0 auto;
 width:90%;
