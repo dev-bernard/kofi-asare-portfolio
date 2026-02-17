@@ -23,7 +23,7 @@
      }
 
      .service-container, .work-container{
-            grid-template-column: repeat(2,1fr);
+            grid-template-columns: repeat(2,1fr);
      }
 
 }
