@@ -555,9 +555,7 @@ font-size:var(--text-5xl);
  margin-bottom: var(--space-48);
 }
 
-.footer-line{
-    border-top:1px solid #e5e7eb;
-}
+
 
 .footer-container {
 display: flex;
