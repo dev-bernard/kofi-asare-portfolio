@@ -336,11 +336,11 @@ width:90%;
 overflow: visible;
 min-height:100vh;
 }
-.hero-content {
+/*.hero-content {
   flex: 1 1 300px;
   min-width: 250px;
   max-width: 600px;
-}
+} /*
 
 
 .hero-heading{
