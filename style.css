@@ -552,8 +552,9 @@ font-size:var(--text-5xl);
 
 /* ===== FOOTER ===== */
 .footer-section{
-border-top:2px solid #e5e7eb;
+border-top:1px solid #e5e7eb;
 margin-top:var(--space-32);
+ margin-bottom: var(--space-48);
 }
 .footer-container {
 display: flex;
