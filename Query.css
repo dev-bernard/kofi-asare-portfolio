@@ -1,3 +1,31 @@
+@media(min-width:35rem){
+     .hero-img-container{
+          max-width: 450px;
+          max-height:450px
+     }
+
+     .about-img-container{
+          max-width:500px;
+          max-height:500px;
+     }
+
+
+
+     .hero-heading{
+          font-size:3rem;
+          margin-bottom:var(space-24);
+     }
+
+
+     .hero-paragraph{
+          font-size:2.2rem;
+          margin-bottom:var(--space-24);
+     }
+
+}
+
+
+
 @media(min-width:48rem){
      html{
         font-size:68%;
