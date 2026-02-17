@@ -319,8 +319,8 @@ padding-top: 60px;
 .hero-container{
 display: flex;
 flex-direction: column;
-justify-content:center;
-align-items:center;
+/*justify-content:center;
+align-items:center; */
  tex-align:center;
 gap:var(--space-32);
 max-width:var(--container-width);
