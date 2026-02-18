@@ -448,7 +448,7 @@ font-size: var(--text-2xl);
 
 .about-paragraph {
 font-size: var(--text-xl);
-  
+  max-width:70ch;
 }
 
 /*RESUME__SECTION*/
