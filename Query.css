@@ -53,7 +53,7 @@
      }
      
      .hero-container,.about-container{
-        flex-direction: row !important;
+        flex-wrap: no-wrap !important;
      }
      
      .hero-btn-container,.cta-btn-container{
