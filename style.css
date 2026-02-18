@@ -386,7 +386,7 @@ gap:var(--space-16);
 }
 
 .hero-img-container{
-max-width:min(30rem,60vw);
+max-width:min(35rem,60vw);
   min-width: clamp(20rem,25vw,22rem);
 width:100%;
 display:flex;
