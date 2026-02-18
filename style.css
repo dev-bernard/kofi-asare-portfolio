@@ -347,7 +347,7 @@ margin-bottom: var(--space-16);
 .hero-paragraph{
 font-size:clamp(1.6rem ,2vw, 2rem);
 margin-bottom: var(--space-16);
-  max-width:60ch;
+  max-width:55ch;
 }
 
 /* Hero heading responsive */
