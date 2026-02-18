@@ -340,6 +340,7 @@ min-height:100vh;
 
 
 .hero-heading{
+  font-size:clamp(3.2rem, 6vw, 6.4rem);
 margin-bottom: var(--space-8);
 }
 
