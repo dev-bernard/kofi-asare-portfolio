@@ -93,25 +93,6 @@
            min-height: 90vh;
      }
 
-     .service-container,.work-container{
-         grid-template-columns: repeat(3,1fr);
-     } 
-
-
-     .hero-container,.about-container{
-          flex-direction: row;
-     }
-
-
-     .hero-img-container{
-       align-self: center;
-     }
-
-
-    
-     .about-img-container{
-        max-width:500px;
-     }
      
-      
+
 }
