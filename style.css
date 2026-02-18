@@ -345,7 +345,7 @@ margin-bottom: var(--space-8);
 }
 
 .hero-paragraph{
-font-size:var(--text-xl);
+font-size:clamp(1.6rem ,2vw, 2rem);
 margin-bottom: var(--space-12);
   max-width:60ch;
 }
