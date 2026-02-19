@@ -316,6 +316,14 @@ padding-top: 1rem;
 border-top: 1px solid #e5e7eb;
 }
 
+  /*FORMS-COMPONENTS*/
+
+.form-label{
+   display:block;
+   font-weight:var(--font-weight-medium)
+   font-size:var(--text-xl);
+}
+
 /*HERO__SECTION*/
 
 .hero-section{
