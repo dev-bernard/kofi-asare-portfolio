@@ -53,7 +53,7 @@
      }
      
      .hero-container,.about-container{
-        flex-wrap: nowrap !important;
+       /* flex-wrap: nowrap !important;*/
      }
      
      .hero-btn-container,.cta-btn-container{
@@ -88,5 +88,12 @@
         justify-content: space-between;
         flex-direction: row;
      }
+}
+
+
+@media(min-width:60rem){
+       .hero-container{
+            flex-wrap:nowrap;
+       }
 }
 
