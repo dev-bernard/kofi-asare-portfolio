@@ -573,6 +573,17 @@ font-size:var(--text-5xl);
    padding-top:70px;
 }
 
+.contact-container{
+   display:flex;
+   justify-content:center;
+  flex-wrap:wrap;
+    align-items:center;
+    min-height:100vh;
+    margin:0 auto;
+    width:90%;
+    max-width:var(--container-width);
+}
+
 /* ===== FOOTER ===== */
 .footer-section{
  margin-bottom: var(--space-48);
