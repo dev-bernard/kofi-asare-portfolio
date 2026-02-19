@@ -325,7 +325,7 @@ border-top: 1px solid #e5e7eb;
    margin-bottom:var(--space-10);
 }
 
-.form-input,.input-text{
+.form-input,.text-input{
    font-size:var(--text-2xl);
    padding:var(--space-8) var(--space-12);
    display: inline-flex;
