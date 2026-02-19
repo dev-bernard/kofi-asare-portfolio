@@ -568,6 +568,11 @@ text-align:center;
 font-size:var(--text-5xl);
 }
 
+/*CONTACT SECTION*/
+.contact-section{
+   padding-top:70px;
+}
+
 /* ===== FOOTER ===== */
 .footer-section{
  margin-bottom: var(--space-48);
