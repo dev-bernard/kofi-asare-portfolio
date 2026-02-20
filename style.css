@@ -374,9 +374,13 @@ transform: translateY(-5px);
   color:var(--secondary-700);
 }
 
-.form-input:state, .text-input:state ,.form-input:outline ,text-input:outline{
-   outline: none;
-   border-color:var(--primary-400);
+
+
+.form-input:focus,
+.text-input:focus {
+  outline: none;
+  border-color: var(--primary-400);
+  box-shadow: 0 0 0 3px var(--primary-100);
 }
     
 
