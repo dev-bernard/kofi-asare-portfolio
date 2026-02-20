@@ -343,14 +343,14 @@ transform: translateY(-5px);
 }
 
 .form-input,.text-input{
-  width:100%
+  width:100%;
    font-size:var(--text-2xl);
    padding:var(--space-8) var(--space-12);
    display: inline-flex;
     justify-content:center;
    align-items:center;
    border-radius:var(--radius-md);
-   border: 2px solid var(--white);
+   border: 2px solid var(--primary-700);
    font-weight:var(--font-weight-medium);
 }
 
