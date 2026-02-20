@@ -352,6 +352,7 @@ transform: translateY(-5px);
    border-radius:var(--radius-md);
    border: 2px solid var(--secondary-700);
    font-weight:var(--font-weight-medium);
+  color:var(--secondary-700);
 }
 
 .form-input:state, text-input:state ,.form-input:outline ,text-input:outline{
