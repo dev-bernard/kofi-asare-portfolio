@@ -354,7 +354,7 @@ transform: translateY(-5px);
    font-weight:var(--font-weight-medium);
 }
 
-.form-input:state ,text-input:state,.form-input:outline ,text-input:outline{
+.form-input:state text-input:state .form-input:outline text-input:outline{
    outline: none;
    border-color:var(--primary-400);
 }
