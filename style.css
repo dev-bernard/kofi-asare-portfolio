@@ -249,6 +249,10 @@ align-items: center;
 gap: var(--space-4);
 }
 
+.brand-logo:hover{
+   text-decoration:none;
+}
+
 .hamburger-btn {
 display: flex;
 flex-direction: column;
@@ -319,6 +323,7 @@ border-top: 1px solid #e5e7eb;
   /*FORMS-COMPONENTS*/
 .form-description{
    font-size:(--text-3xl);
+  margin-bottom:var(--space-16);
 }
 
 .forms-container{
@@ -342,6 +347,10 @@ transform: translateY(-5px);
    display:block;
    font-weight:var(--font-weight-medium)
    font-size:var(--text-2xl);
+   margin-bottom:var(--space-16);
+}
+
+.text-input{
    margin-bottom:var(--space-16);
 }
 
