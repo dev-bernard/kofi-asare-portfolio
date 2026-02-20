@@ -347,6 +347,7 @@ transform: translateY(-5px);
    
   .forms-container .btn-primary{
      width:100%;
+     padding:var(--space-16);
   }
 
 .form-label{
