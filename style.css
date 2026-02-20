@@ -343,15 +343,18 @@ transform: translateY(-5px);
 }
 
 .form-input,.text-input{
+  width:100%
    font-size:var(--text-2xl);
    padding:var(--space-8) var(--space-12);
    display: inline-flex;
     justify-content:center;
    align-items:center;
    border-radius:var(--radius-md);
-   border: 2px solid var(--secondary-700);
+   border: 2px solid var(--white);
    font-weight:var(--font-weight-medium);
 }
+
+.form-input
 
 .form-group{
    margin-bottom:var(--space-24);
