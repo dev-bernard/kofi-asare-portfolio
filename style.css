@@ -317,6 +317,9 @@ border-top: 1px solid #e5e7eb;
 }
 
   /*FORMS-COMPONENTS*/
+.form-description{
+   font-size:(--text-3xl);
+}
 
 .forms-container{
    background-color:var(--white);
