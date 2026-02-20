@@ -140,6 +140,10 @@ transition: background-color 0.2s, transform 0.2s;
 
 a.btn-primary {
 color: var(--white);
+}
+
+.btn-primary {
+color: var(--white);
 background-color: var(--primary-600);
 border: var(--border-sm) solid var(--primary-600);
 }
