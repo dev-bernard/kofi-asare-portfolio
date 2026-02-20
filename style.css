@@ -374,7 +374,7 @@ transform: translateY(-5px);
   color:var(--secondary-700);
 }
 
-.form-input:state, text-input:state ,.form-input:outline ,text-input:outline{
+.form-input:state, .text-input:state ,.form-input:outline ,text-input:outline{
    outline: none;
    border-color:var(--primary-400);
 }
