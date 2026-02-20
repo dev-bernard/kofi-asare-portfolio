@@ -350,7 +350,7 @@ transform: translateY(-5px);
     justify-content:center;
    align-items:center;
    border-radius:var(--radius-md);
-   border: 2px solid var(--primary-700);
+   border: 2px solid var(--secondary-700);
    font-weight:var(--font-weight-medium);
 }
 
