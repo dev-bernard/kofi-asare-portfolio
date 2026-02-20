@@ -92,7 +92,7 @@
 
 
 @media(min-width:60rem){
-       .hero-container{
+       .hero-container,.about-container{
             flex-wrap:nowrap;
        }
 }
