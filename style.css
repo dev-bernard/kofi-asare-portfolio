@@ -322,7 +322,7 @@ border-top: 1px solid #e5e7eb;
 
   /*FORMS-COMPONENTS*/
 .form-description{
-   font-size:(--text-3xl);
+   font-size:(--text-4xl);
   margin-bottom:var(--space-16);
 }
 
@@ -346,7 +346,7 @@ transform: translateY(-5px);
 .form-label{
    display:block;
    font-weight:var(--font-weight-medium)
-   font-size:var(--text-2xl);
+   font-size:var(--text-3xl);
    margin-bottom:var(--space-16);
 }
 
@@ -356,7 +356,7 @@ transform: translateY(-5px);
 
 .form-input,.text-input{
   width:100%;
-   font-size:var(--text-2xl);
+   font-size:var(--text-3xl);
    padding:var(--space-8) var(--space-12);
    display: inline-flex;
     justify-content:center;
