@@ -354,7 +354,11 @@ transform: translateY(-5px);
    font-weight:var(--font-weight-medium);
 }
 
-.form-input
+.form-input:state ,text-input:state,.form-input:outline ,text-input:outline{
+   outline: none;
+   border-color:var(--primary-400);
+}
+    
 
 .form-group{
    margin-bottom:var(--space-24);
