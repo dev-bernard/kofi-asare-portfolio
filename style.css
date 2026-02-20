@@ -326,7 +326,7 @@ border-top: 1px solid #e5e7eb;
 
   /*FORMS-COMPONENTS*/
 .form-description{
-   font-size:(--text-4xl);
+   font-size:var(--text-3xl);
   margin-bottom:var(--space-16);
 }
 
@@ -351,7 +351,7 @@ transform: translateY(-5px);
 
 .form-label{
    display:block;
-   font-weight:var(--font-weight-medium)
+   font-weight:var(--font-weight-medium);
    font-size:var(--text-3xl);
    margin-bottom:var(--space-16);
 }
